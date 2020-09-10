@@ -1,204 +1,196 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap');
-
-html, body {
-  margin: 0;
-  padding: 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 #home {
-  background-image: url('/static/images/home-img.png');
+    background-image: url('/static/images/home-img.png');
 }
 
 #rules {
-  background-image: url('/static/images/backdrop.png');
-  background-repeat: no-repeat;
-  background-color: #363636;
+    background-image: url('/static/images/backdrop.png');
+    background-repeat: no-repeat;
+    background-color: #363636;
 }
 
 #apply {
-  background-image: url('/static/images/apply-backdrop.png');
-  background-repeat: no-repeat;
-  background-color: #363636;
+    background-image: url('/static/images/apply-backdrop.png');
+    background-repeat: no-repeat;
+    background-color: #363636;
 }
 
 #req {
-  background: rgb(73,35,35);
-  background: linear-gradient(31deg, rgba(73,35,35,1) 0%, rgba(165,165,165,1) 47%, rgba(248,215,132,1) 100%);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    background: rgb(73, 35, 35);
+    background: linear-gradient(31deg, rgba(73, 35, 35, 1) 0%, rgba(165, 165, 165, 1) 47%, rgba(248, 215, 132, 1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .req-check {
-  font-family: 'Fjalla One', sans-serif;
-  margin-left: 15px;
-  margin-top: 10px;
-  color: white;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .req-check a {
-  color: white;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #logo {
-  width: 9%;
-  height: auto;
+    width: 9%;
+    height: auto;
 }
 
 header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-  background: rgb(107,19,19);
-  background: linear-gradient(31deg, rgba(107,19,19,1) 0%, rgba(198,34,34,1) 47%, rgba(199,151,30,1) 100%);
-  height: 60px;
-  vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgb(107, 19, 19);
+    background: linear-gradient(31deg, rgba(107, 19, 19, 1) 0%, rgba(198, 34, 34, 1) 47%, rgba(199, 151, 30, 1) 100%);
+    height: 60px;
+    vertical-align: middle;
 }
 
 .rules {
-  font-family: 'Gayathri', sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 115%;
+    font-family: 'Gayathri', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 115%;
 }
 
 .rules li {
-  list-style-type: none;
-  list-style-position: outside;
-
+    list-style-type: none;
+    list-style-position: outside;
 }
 
 #rule__title {
-  font-family: 'Fjalla One', sans-serif;
-  text-align: center;
-  color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
 }
 
 .logo-link {
-  margin-left: -160px;
-  margin-right: auto;
+    margin-left: -160px;
+    margin-right: auto;
 }
 
 .logo {
-  padding: 2px;
-  width: 20%;
-  height: auto;
+    padding: 2px;
+    width: 20%;
+    height: auto;
 }
 
 .nav__links {
-  list-style: none;
-  display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 .nav__links li {
-  padding: 0px 20px;
-  right: 20px;
+    padding: 0px 20px;
+    right: 20px;
 }
 
 .nav__links li a {
-  transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
-
 
 .cta {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+
 
 /* Mobile Nav */
 
 .menu {
-  display: none;
+    display: none;
 }
 
 .overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  background-color: #24252a;
-  overflow-x: hidden;
-  transition: all 0.5s ease 0s;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
 }
 
 .overlay--active {
-  width: 100%;
+    width: 100%;
 }
 
 .overlay__content {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .overlay a {
-  padding: 15px;
-  font-size: 36px;
-  display: block;
-  transition: all 0.3s ease 0s;
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0088a9;
+    color: #0088a9;
 }
+
 .overlay .close {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  color: #edf0f1;
-  cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-  .nav__links,
-  .cta {
-    display: none;
-  }
-  .menu {
-    display: initial;
-  }
+    .nav__links,
+    .cta {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
 }
 
 .main {
@@ -209,147 +201,122 @@ header {
 }
 
 .main p {
-  letter-spacing: 2px;
-  font-size: 115%;
+    letter-spacing: 2px;
+    font-size: 115%;
 }
 
 .main a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Gayathri', sans-serif;
-  letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gayathri', sans-serif;
+    letter-spacing: 1px;
 }
 
 #button {
-  width: 100px;
-  height: 50px;
-  background: #363636;
-  color: white;
-  border-color: white;
-  border-radius: 24px;
+    width: 100px;
+    height: 50px;
+    background: #363636;
+    color: white;
+    border-color: white;
+    border-radius: 24px;
 }
 
 #Underline {
-  width: 400px;
-  background-color: #363636;
+    width: 400px;
+    background-color: #363636;
 }
 
 .title {
-  color: white;
-  text-align: center;
-  font-family: 'Fjalla One', sans-serif;
-  letter-spacing: 3px;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    color: white;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .apply {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 105%;
-  text-align: center;
-  color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 105%;
+    text-align: center;
+    color: white;
 }
 
 .cad {
-  transform: translate(600px, 0px);
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
-  align-content: center;
-  font-size: 105%;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 105%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .cad a {
-  text-shadow: none;
+    text-shadow: none;
 }
 
 .cad img {
-  width: 18%;
-  height: auto;
+    width: 18%;
+    height: auto;
 }
 
 .dis {
-  margin-top: 35px;
-  padding: 5px;
-  transform: translate(600px, 0px);
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
-  align-content: center;
-  font-size: 105%;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-  margin-bottom: 80px;
+    margin-top: 35px;
+    padding: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 105%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 80px;
 }
 
 .dis a {
-  text-shadow: none;
+    text-shadow: none;
 }
 
 .dis img {
-  width: 18%;
-  height: auto;
+    width: 18%;
+    height: auto;
 }
 
 #contact {
-  background: rgb(212,71,71);
-  background: linear-gradient(31deg, rgba(212,71,71,1) 0%, rgba(233,82,228,1) 47%, rgba(249,191,45,1) 100%);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    background: rgb(212, 71, 71);
+    background: linear-gradient(31deg, rgba(212, 71, 71, 1) 0%, rgba(233, 82, 228, 1) 47%, rgba(249, 191, 45, 1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .contact {
-  color: white;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 110%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 110%;
 }
 
 .contact h2[tpye='title-1'] {
-  font-size: 105%;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    font-size: 105%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .contact-1,
 .contact-2 {
-  transform: translate(600px, 0px);
-  margin-top: 50px;
-  margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #about {
-  background: url('/static/images/about-backdrop.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url('/static/images/about-backdrop.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .about {
-  font-family: 'Fjalla One', sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 105%;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 105%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .about a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
