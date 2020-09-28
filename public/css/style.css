@@ -29,6 +29,13 @@ body {
     background-repeat: no-repeat;
 }
 
+#download {
+    text-align: left;
+    color: white;
+    outline: black;
+    outline-offset: 1px;
+}
+
 .req-check {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 15px;
