@@ -4,7 +4,7 @@ var http = require('http').createServer(express);
 
 var newBaseURL = process.env.NEW_BASE_URL || 'http://localhost:7000';
 var redirectStatus = parseInt(process.env.REDIRECT_STATUS || 302);
-var oldBaseURL = process.env.OLD_BASE_URL
+var oldBaseURL = process.env.OLD_BASE_URL;
 
 const app = express();
 
